@@ -8,22 +8,20 @@ let history = 10
 // Listu s mestami a APInami na thinkspeak
 const city_list = [
     {
-        name:'Povina',
-        baseUrl:'https://api.thingspeak.com/channels/2091420/feeds.json?results='
+        name:'Kysucké Nové Mesto',
+        baseUrl:'https://api.thingspeak.com/channels/2175803/feeds.json?results='
 },
     
-    {
-        name:'Žilina',
-        baseUrl: 'https://api.thingspeak.com/channels/2096878/feeds.json?results=',
+{
+    name: 'Žilina',
+    baseUrl:'https://api.thingspeak.com/channels/2091420/feeds.json?results='
 },
-    {
-        name:'Lodno',
-        baseUrl:'https://api.thingspeak.com/channels/2106893/feeds.json?results=',
-    },
-    {
-        name: 'Horný Vadičov',
-        baseUrl: 'https://api.thingspeak.com/channels/2110962/feeds.json?results='
-    }
+{
+    name:'Bratislava',
+    baseUrl: 'https://api.thingspeak.com/channels/2176904/feeds.json?results='
+},
+    
+    
 ]
 
 let city = city_list[1].name
