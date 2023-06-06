@@ -14,7 +14,7 @@ const city_list = [
     
 {
     name: 'Žilina',
-    baseUrl:'https://api.thingspeak.com/channels/2091420/feeds.json?results='
+    baseUrl:'https://api.thingspeak.com/channels/2096878/feeds.json?results='
 },
 {
     name:'Bratislava',
